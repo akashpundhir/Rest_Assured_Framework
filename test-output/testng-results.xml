@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Add new place]]>
+    </line>
+    <line>
+      <![CDATA[{"status":"OK","place_id":"eb143dbd8bf918d5f403e937c7d66bc8","scope":"APP","reference":"eb61f4f60866bcbd748175c6d09d1dc3eb61f4f60866bcbd748175c6d09d1dc3","id":"eb61f4f60866bcbd748175c6d09d1dc3"}]]>
+    </line>
+    <line>
+      <![CDATA[updateTheAddress start]]>
+    </line>
+    <line>
+      <![CDATA[TestNg_Reports And Logs]]>
+    </line>
+    <line>
+      <![CDATA[Get Address complete successfuly]]>
+    </line>
+    <line>
+      <![CDATA[
+Nested json started]]>
+    </line>
+    <line>
+      <![CDATA[Total no. pf sold copies]]>
+    </line>
+    <line>
+      <![CDATA[
+Test completes successfuly]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-10-25T14:51:00 CEST" name="Default suite" finished-at="2024-10-25T14:51:09 CEST" duration-ms="8785">
+    <groups>
+    </groups>
+    <test started-at="2024-10-25T14:51:00 CEST" name="Default test" finished-at="2024-10-25T14:51:09 CEST" duration-ms="8785">
+      <class name="gmapAPI.MainTest">
+        <test-method is-config="true" signature="addPlace()[pri:0, instance:gmapAPI.MainTest@7161d8d1]" started-at="2024-10-25T14:51:01 CEST" name="addPlace" finished-at="2024-10-25T14:51:05 CEST" duration-ms="4118" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Add new place]]>
+            </line>
+            <line>
+              <![CDATA[{"status":"OK","place_id":"eb143dbd8bf918d5f403e937c7d66bc8","scope":"APP","reference":"eb61f4f60866bcbd748175c6d09d1dc3eb61f4f60866bcbd748175c6d09d1dc3","id":"eb61f4f60866bcbd748175c6d09d1dc3"}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addPlace -->
+        <test-method signature="updateTheAddress()[pri:0, instance:gmapAPI.MainTest@7161d8d1]" started-at="2024-10-25T14:51:05 CEST" name="updateTheAddress" finished-at="2024-10-25T14:51:07 CEST" duration-ms="2417" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[updateTheAddress start]]>
+            </line>
+            <line>
+              <![CDATA[TestNg_Reports And Logs]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- updateTheAddress -->
+        <test-method is-config="true" signature="getAddress()[pri:0, instance:gmapAPI.MainTest@7161d8d1]" started-at="2024-10-25T14:51:07 CEST" name="getAddress" finished-at="2024-10-25T14:51:09 CEST" duration-ms="1644" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Get Address complete successfuly]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getAddress -->
+        <test-method is-config="true" signature="retrievingArray()[pri:0, instance:gmapAPI.MainTest@7161d8d1]" started-at="2024-10-25T14:51:09 CEST" name="retrievingArray" finished-at="2024-10-25T14:51:09 CEST" duration-ms="445" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[
+Nested json started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- retrievingArray -->
+        <test-method is-config="true" signature="toltalCopiesSold()[pri:0, instance:gmapAPI.MainTest@7161d8d1]" started-at="2024-10-25T14:51:09 CEST" name="toltalCopiesSold" finished-at="2024-10-25T14:51:09 CEST" duration-ms="102" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Total no. pf sold copies]]>
+            </line>
+            <line>
+              <![CDATA[
+Test completes successfuly]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- toltalCopiesSold -->
+      </class> <!-- gmapAPI.MainTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
